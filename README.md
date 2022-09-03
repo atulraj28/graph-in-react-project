@@ -24,7 +24,7 @@ use the different chart function to get and show the value of graph <br>
  ## running the project 
  to run this project just type **_yarn start_** in the terminal of the project after opening it<br>
  this will automatically open a web page with react logo and run the app<br>
- we can also use localhost:30000 to open it in desired browser, to run it locally.
+ we can also use localhost:3000 to open it in desired browser, to run it locally.
 
  ## future work
  the data can be further sorted in differnt order for different use<br>
