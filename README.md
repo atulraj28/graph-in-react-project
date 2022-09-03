@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# work of this code <br>
+it has a static data which is used to make intractive responsive graph <br>
+![scatter graph](https://user-images.githubusercontent.com/111493898/188261242-3eb99da6-a636-4f2a-9e92-7f7fde134273.png)<br>
+this graph is between Hue and color intensity from the data in increaseing order of color intensity.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Building the project
+first set up vs code for react.js and add yarn<br>.
+then add chart from react.js<br>
+start making changes in app.js.<br>
+delete default code and add the data.<br>
+set the data as array.<br>
+import  (XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, BarChart, Bar, ScatterChart, Scatter form chart) <br>
+imports will help in rendering and defining the graph<br>
+added a heading as bar graph and scartter graph<br>
+make changes in css to make the text center with blue color and underline it <br>
+use another array to sort the data in ascending order of color intnsity<br>
+using responsivecontainer make the graph page responsive on other devices<br>
+set height width and margin of the graph for better viewing expreience<br>
+set the cartisian grid<br>
+set X and y axis<br>
+take the data from given dataset<br>
+use the different chart function to get and show the value of graph <br>
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ ## future work
+ the data can be further sorted in differnt order for different use<br>
+ the data can also be used to make a single graph which can show different features of different alcohol<br>
+ it can be made more interective for general purpose use<br>
